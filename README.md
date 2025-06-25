@@ -1,4 +1,4 @@
-# [Data Visualisation Community of Practice](https://nhsengland.github.io/data-viz-community-of-practice-SW/)
+# [Data Visualisation Community of Practice for SW](https://hannahmitchell35.github.io/data-viz-community-of-practice-SW/)
 ![CI](https://github.com/nhsengland/data-viz-community-of-practice/actions/workflows/pages-build-deployment.yml/badge.svg "CI badge indicating passing or failing status")
 [![Release Version](https://img.shields.io/github/v/release/nhsengland/data-viz-community-of-practice "Release version")](https://github.com/nhsengland/data-viz-community-of-practice/releases)
 [![MkDocs Material](https://img.shields.io/badge/style-MkDocs%20Material-darkblue "Markdown Style: MkDocs")](https://squidfunk.github.io/mkdocs-material/reference/)
@@ -12,7 +12,7 @@
 
 <br>
 
-**Welcome to the landing page for the NHS England Data Visualisation Community of Practice repository.**
+**Welcome to the landing page for the NHS England Data Visualisation Community of Practice repository SW.**
 
 Visit our [website](https://hannahmitchell35.github.io/data-viz-community-of-practice-SW/) for more information about Data Visualisation or look in the docs folder!
 
