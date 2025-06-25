@@ -1,6 +1,6 @@
-site_name: Data Viz Community of Practice
+site_name: Data Viz Community of Practice SW
 # site_url: https://example.com
-repo_url: https://github.com/nhsengland/data-viz-community-of-practice
+repo_url: https://hannahmitchell35.github.io/data-viz-community-of-practice-SW/
 repo_name: Data Viz Community of Practice
 edit_uri: edit/main/docs/
 plugins:
@@ -104,7 +104,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/nhsengland/data-viz-community-of-practice
+      link: https://hannahmitchell35.github.io/data-viz-community-of-practice-SW/
       name: NHS Data Viz Community of Practice
   generator: false
 copyright: Copyright &copy; 2024 Crown Copyright (NHS England)
