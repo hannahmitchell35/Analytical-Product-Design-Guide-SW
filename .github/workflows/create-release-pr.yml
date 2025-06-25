@@ -8,7 +8,7 @@ on:
 jobs:
   create_pr:
     runs-on: ubuntu-latest
-    if: github.repository == 'nhsengland/data-viz-community-of-practice'
+    if: github.repository == 'hannahmitchell35/data-viz-community-of-practice-SW'
     steps:
       - uses: actions/checkout@v3
         with:
