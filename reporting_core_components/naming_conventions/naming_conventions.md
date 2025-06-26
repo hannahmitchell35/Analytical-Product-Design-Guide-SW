@@ -1,6 +1,6 @@
 # Naming Conventions
 
-**Consistency in naming and presentation is critical for clarity and usability across all analytical products**
+**It is essential to maintain consistent abbreviations across all our products. When displaying multiple providers, they should also be presented in a consistent order.**
 
 **Abbreviations:**
 
@@ -12,4 +12,4 @@ When displaying multiple providers, always present them in a standard, agreed or
 
 *A reference table outlining the correct order and standard abbreviations for all providers is included below*
 
-![Diagram of SW naming conventions](images/naming_conventions.png "Diagram of SW naming conventions"){data-title="Diagram of SW naming conventions" data-caption-position="top"}
+![Diagram of SW naming conventions](reporting_core_components/images/naming_conventions.png "Diagram of SW naming conventions"){data-title="Diagram of SW naming conventions" data-caption-position="top"}
