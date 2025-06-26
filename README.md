@@ -1,27 +1,24 @@
 
-## 🔄 Summary of Key Differences Between `index.html` and `launch -> launch.html`
+## 🔄 Summary of Key Differences Between `index.html`, `launch.html`, and `404.html`
 
-This table compares the two main HTML pages used in the Analytical Product Design Guide website.
+This table compares the three main HTML page types used in the Analytical Product Design Guide website.
 
-| Feature                      | `index.html` (Homepage)                             | `launch.html` (Launch Page)                          |
-|------------------------------|------------------------------------------------------|------------------------------------------------------|
-| **Main Role**                | Homepage for docs/navigation                         | One-off intro/announcement page                      |
-| **Navigation Tabs**          | ✅ Yes — links to all key sections                   | ❌ Not typically included                            |
-| **Hero Section**             | ✅ Yes                                              | ✅ Yes                                               |
-| **Feature Cards/Links**      | ✅ Yes — links to sections like “Naming Conventions” | ❌ No (or very few)                                  |
-| **Video Embed**              | ❌ No                                                | ✅ Yes — launch event                                |
-| **Expandable Content**       | ✅ Structured for growth                             | ❌ Meant to stay static                              |
-| **Tied to MkDocs Sidebar**   | ✅ Yes                                              | ❌ Not usually connected                             |
-| **Used Routinely**           | ✅ Entry point for most users                        | ❌ Typically viewed once or on first visit           |
+| Feature                      | `index.html` (Homepage)                             | `launch.html` (Launch Page)                          | `404.html` (Error Page)                                 |
+|------------------------------|------------------------------------------------------|------------------------------------------------------|---------------------------------------------------------|
+| **Main Role**                | Homepage for docs/navigation                         | One-off intro/announcement page                      | Shown when user visits a missing or broken link         |
+| **Navigation Tabs**          | ✅ Yes — links to all key sections                   | ❌ Not typically included                            | ✅ Yes — consistent layout                              |
+| **Hero Section**             | ✅ Yes                                              | ✅ Yes                                               | ❌ No                                                    |
+| **Feature Cards/Links**      | ✅ Yes — homepage menu                              | ❌ No (just launch content)                          | ❌ No                                                    |
+| **Video Embed**              | ❌ No                                                | ✅ Yes — launch video                                | ❌ No                                                    |
+| **Expandable Content**       | ✅ Structured for growth                             | ❌ Meant to stay static                              | ❌ Static 404 message only                               |
+| **Tied to MkDocs Sidebar**   | ✅ Yes                                              | ❌ Not usually connected                             | ✅ Yes — same nav as other pages                         |
+| **Used Routinely**           | ✅ Entry point for most users                        | ❌ Typically viewed once                             | ⚠️ Only shown on error or broken link                    |
 
 ---
 
 ### ✅ When to Use Each
 
-- Use `index.html` as the **main homepage** for navigation and exploration
-- Use `launch -> launch.html` as a **celebratory or promotional landing page**, possibly linked from a button like:
-  ```html
-  <a href="launch" class="md-button">View our launch</a>
-  ```
+- **Use `index.html`** as the homepage of your documentation.
+- **Use `launch.html`** to introduce or promote your guide/project.
+- **Use `404.html`** as a fallback when users land on a missing or incorrect page.
 
-As you create additional standalone pages, add them to this comparison table to keep track of their roles.
