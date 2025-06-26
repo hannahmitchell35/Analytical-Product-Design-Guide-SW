@@ -15,8 +15,8 @@ nav:
   - Home: index.md
   # - About: about.md
 - Reporting Core Components:
-      - reporting_core_components/index.md
-      - Naming Conventions: reporting_core_components/naming_conventions.md
+      - reporting_corecomponents/index.md
+      - Naming Conventions: reporting_corecomponents/naming_conventions.md
       #- Development steps: dashboard_lifecycle/development_steps.md
   - Dashboard lifecycle:
       - dashboard_lifecycle/index.md
