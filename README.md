@@ -19,7 +19,7 @@ This table compares the two main HTML pages used in the Analytical Product Desig
 ### ✅ When to Use Each
 
 - Use `index.html` as the **main homepage** for navigation and exploration
-- Use `launch.html` as a **celebratory or promotional landing page**, possibly linked from a button like:
+- Use `launch -> launch.html` as a **celebratory or promotional landing page**, possibly linked from a button like:
   ```html
   <a href="launch" class="md-button">View our launch</a>
   ```
